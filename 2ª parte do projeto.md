@@ -1,12 +1,11 @@
 # Quadro "É, não é"
 
-
-| É                                                                                    | NÃO É                                                               |
-| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------- |
-| Sistema simples de gerenciamento de fluxo de caixa e estoque                         | Sistema de gerenciamento de qualidade e/ou integridade dos produtos |
-| Focado em pequenos negócios                                                          | Um ERP (Enterprise Resource Planning) completo                      |
-| Ferramenta simples, mas que consegue substituir planilhas ou outros sistemas manuais | App mobile ou para PC                                               |
-| Sistema web                                                                          |                                                                     |
+| É                                                                                         | NÃO É                                                                                                                                                                              |
+| ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Sistema simples de gerenciamento de fluxo de caixa e estoque de uma conveniência familiar | SaaS ou sistema que pode ser incorporado em cenários muito diferentes de uma conveniência                                                                                          |
+| Ferramenta simples, mas que consegue substituir planilhas ou outros sistemas manuais      | Um ERP (Enterprise Resource Planning) sistema de gerenciamento completo responsável por como finanças, recursos humanos, produção, logística, vendas, entre outras funcionalidades |
+| Sistema web                                                                               | App mobile ou para PC                                                                                                                                                              |
+|                                                                                           | Sistema de gerenciamento de qualidade e/ou integridade dos produtos                                                                                                                |
 
 | Faz                                                                                                                                                                                                                                      | Não faz                                                                                  |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
@@ -19,8 +18,34 @@
 
 ## 1 - Venda no caixa
 
-João é responsável pelo caixa, já está no fim da tarde de uma terça-feira movimentada quando aparece um cliente pedindo um combo com cadernos e canetas, um pacote de pão, duas barras de chocolate e 1 KG de sal.
+Joãozinho é responsável pelo caixa e aparece um cliente para passar as compras. Ele então, inicia uma venda no sistema podendo usar o leitor de código de barras ou adicionando o produto manualmente. Após todos os produtos passarem, ele fecha o registro da venda.
 
-João então, inicia uma venda no sistema e com seu leitor de código de barras de barras registra alguns produtos, mas o pacote de pão não tem código de barras pois é produção própria, mas ele não lembra do código, então ele busca na lista de produtos usando a tag de massas e acha o respectivo produto, o adicionado a lista de venda. Ele passa todo o resto e fecha o registro da venda
+## 2 - Conferindo receita e estoque
 
-## 2 - 
+Seu André, dono do estabelecimento, vai no fim de semana conferir a receita da semana, a movimentação de clientes na loja e ver quais itens estão fora de estoque, para repor o estoque.
+
+## 3 - Adicionando itens ao estoque
+
+Seu André, após comprar itens que estavam em falta e novos itens, ele vai ao sistema e cadastra os novos itens e adiciona a quantidade dos itens que estavam em falto no estoque.
+
+## 4 - Acessando histórico de vendas
+
+Seu André, curioso em saber mais detalhadamente como foram das vendas de determinado dia, vai no histórico e analisa todas as compras do dia, vendo informações mais detalhadas e específicas de cada venda.
+
+# Diagramas de casos de uso
+
+## 1 - Fazendo uma venda
+
+![[1 - atendimento ao caixa.excalidraw]]
+
+## 2 - Acessando o Dashboard para analisar informações
+
+![[2 - Analizando dados da semana.excalidraw]]
+
+## 3 - Gerenciamento de estoque
+
+![[3 - Gerenciamento do estoque.excalidraw]]
+
+## 4 - Acesso ao histórico de vendas
+
+![[4 - Visualização de vendas.excalidraw]]
