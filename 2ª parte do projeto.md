@@ -36,7 +36,7 @@ Seu André, curioso em saber mais detalhadamente como foram das vendas de determ
 
 ## 1 - Fazendo uma venda
 
-![[1 - atendimento ao caixa.excalidraw]]
+![[../Excalidraw/1\ -\ atendimento\ ao\ caixa.excalidraw.png]]
 
 ## 2 - Acessando o Dashboard para analisar informações
 
